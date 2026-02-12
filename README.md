@@ -8,13 +8,14 @@ Some questions deserve more than a quick search. Pokee Deep Research takes 7-25 
 
 ## Why This Exists
 
-| Quick Search | Deep Research |
-|--------------|---------------|
-| 10 blue links | Executive summary + detailed analysis |
-| Surface facts | Strategic insights |
-| You connect the dots | Pokee connects them for you |
+|  | Web Search | Perplexity | **Pokee Deep Research** |
+|---|---|---|---|
+| **Speed** | ⚡ Instant | 🐢 30-60 sec | ⏱️ 7-25 min |
+| **Depth** | Surface | Medium | **Deep** |
+| **Structure** | Links | Paragraph | **Outline + Report** |
+| **Best For** | Quick facts | Fast answers | **Strategic analysis** |
 
-**Use this when:** preparing for a meeting, evaluating competitors, understanding a market, or any time "I googled it" isn't enough.
+**Use this when:** preparing for a meeting, evaluating competitors, understanding a market, or any time "I googled it" or "I asked Perplexity" isn't enough.
 
 ---
 
