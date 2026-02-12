@@ -16,7 +16,7 @@ CREDENTIAL_PATHS = [
 ]
 
 OUTPUT_DIR = Path.home() / ".openclaw" / "workspace" / "research-output"
-API_URL = "https://api.pokee.ai/v1/deep-research"
+API_URL = "https://deepresearch.pokee.ai/deep-research"
 
 def get_api_token():
     """Find API token from credential files."""
@@ -44,13 +44,19 @@ def save_results(query, data):
     with open(json_file, "w") as f:
         json.dump(data, f, indent=2)
     
-    # Save outline
-    if "outline" in data:
+    # Extract and save outline from output_data
+    if "output_data" in data and "formatted_outline" in data["output_data"]:
+        outline_file = OUTPUT_DIR / f"{basename}_{timestamp}_outline.md"
+        outline_file.write_text(data["output_data"]["formatted_outline"])
+    elif "outline" in data:
         outline_file = OUTPUT_DIR / f"{basename}_{timestamp}_outline.md"
         outline_file.write_text(data["outline"])
     
-    # Save writeup
-    if "writeup" in data:
+    # Extract and save writeup from output_data
+    if "output_data" in data and "formatted_writeup" in data["output_data"]:
+        writeup_file = OUTPUT_DIR / f"{basename}_{timestamp}_writeup.md"
+        writeup_file.write_text(data["output_data"]["formatted_writeup"])
+    elif "writeup" in data:
         writeup_file = OUTPUT_DIR / f"{basename}_{timestamp}_writeup.md"
         writeup_file.write_text(data["writeup"])
     
@@ -68,7 +74,7 @@ def conduct_research(query):
     print("This may take 7-25 minutes...\n")
     
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    payload = {"query": query, "depth": "comprehensive"}
+    payload = {"query": query}
     
     try:
         response = requests.post(API_URL, json=payload, headers=headers, timeout=1500)
@@ -91,7 +97,11 @@ def main():
         print(f"\n✅ Research complete!")
         print(f"📁 Results saved to: {output_dir}")
         
-        if "writeup" in data:
+        # Show preview from output_data if available
+        if "output_data" in data and "formatted_writeup" in data["output_data"]:
+            preview = data["output_data"]["formatted_writeup"][:500] + "..."
+            print(f"\n📝 Preview:\n{preview}")
+        elif "writeup" in data:
             preview = data["writeup"][:500] + "..."
             print(f"\n📝 Preview:\n{preview}")
 
