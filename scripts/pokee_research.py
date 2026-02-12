@@ -71,15 +71,23 @@ def conduct_research(query):
         return None
     
     print(f"🔬 Researching: {query}")
-    print("This may take 7-25 minutes...\n")
+    print("This may take 7-25 minutes...")
+    print("(Do not interrupt - research is running on Pokee's servers)")
+    print("")
     
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
     payload = {"query": query}
     
     try:
+        # Note: Timeout is 1500 seconds (25 minutes) to match Pokee's documented timing
         response = requests.post(API_URL, json=payload, headers=headers, timeout=1500)
         response.raise_for_status()
         return response.json()
+    except requests.exceptions.Timeout:
+        print("❌ Error: Request timed out")
+        print("The Deep Research API takes 7-25 minutes depending on query complexity.")
+        print("This is normal - please try again with a simpler query or wait longer.")
+        return None
     except requests.exceptions.RequestException as e:
         print(f"❌ API Error: {e}")
         return None
