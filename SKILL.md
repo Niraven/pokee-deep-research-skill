@@ -5,40 +5,62 @@ description: Conduct deep research using Pokee AI's Deep Research API. Generates
 
 # Pokee Deep Research
 
-## 3-Step Quick Start
+Deep research for when surface-level answers aren't enough. Powered by Pokee's academic-grade research engine.
 
-**1. Install:**
+---
+
+## Quick Start (3 Steps)
+
+**Install:**
 ```bash
 mkdir -p ~/.openclaw/skills && cd ~/.openclaw/skills
 git clone https://github.com/Niraven/pokee-deep-research-skill.git pokee-deep-research
 cd pokee-deep-research
 ```
 
-**2. Setup (get free token at https://pokee.ai):**
+**Configure:**
 ```bash
 python3 scripts/setup.py
 ```
+*Get your free token at https://pokee.ai*
 
-**3. Research:**
+**Research:**
 ```bash
 ./scripts/pokee-research.sh "Your research question"
 ```
 
+---
+
+## When to Use This
+
+✓ Competitive intelligence  
+✓ Market landscape analysis  
+✓ Pre-meeting deep dives  
+✓ Technology evaluations  
+✓ Any question where "I searched it" isn't enough  
+
+---
+
 ## Output
 
-Results saved to `~/.openclaw/workspace/research-output/`:
-- `*_outline.md` — Structured outline
-- `*_writeup.md` — Full report (50-70 KB)
-- `*_response.json` — Raw API data
+Results in `~/.openclaw/workspace/research-output/`:
+
+- **`*_outline.md`** — Structured overview (read this first)
+- **`*_writeup.md`** — Full report with analysis (~50-70 KB)
+- **`*_response.json`** — Raw API response
+
+---
 
 ## Requirements
 
 - Python 3.7+
-- `pip3 install requests` (if not installed)
-- Pokee API token (free at https://pokee.ai)
+- `pip3 install requests`
+- Pokee API token (free tier available)
 
-## Troubleshooting
+---
 
-**"No API token"** → Run `python3 scripts/setup.py`
+## About the Engine
 
-**"requests not found"** → `pip3 install requests`
+Pokee Deep Research doesn't just find information — it synthesizes it. The 7-25 minute runtime reflects genuine analysis: building outlines, comparing sources, structuring findings into actionable intelligence.
+
+[Learn more at pokee.ai](https://pokee.ai)
