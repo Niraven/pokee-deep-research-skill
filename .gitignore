@@ -1,0 +1,19 @@
+# Credentials
+.credentials/
+*.key
+*.pem
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Output
+research-output/
+
+# OS
+.DS_Store
+Thumbs.db
