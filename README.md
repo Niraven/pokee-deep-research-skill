@@ -1,42 +1,50 @@
-# 🦞 Pokee Deep Research
+# 🔍 Pokee Deep Research
 
-> When you need **answers worth waiting for**
+> **Deep research that actually goes deep — iterative investigation, real citations, answers you can verify.**
 
-Some questions deserve more than a quick search. Pokee Deep Research takes 7-25 minutes to deliver structured, comprehensive reports — the kind you'd expect from an analyst, not an algorithm.
-
----
-
-## Why This Exists
-
-|  | Web Search | Perplexity | **Pokee Deep Research** |
-|---|---|---|---|
-| **Speed** | ⚡ Instant | 🐢 30-60 sec | ⏱️ 7-25 min |
-| **Depth** | Surface | Medium | **Deep** |
-| **Structure** | Links | Paragraph | **Outline + Report** |
-| **Best For** | Quick facts | Fast answers | **Strategic analysis** |
-
-**Use this when:** preparing for a meeting, evaluating competitors, understanding a market, or any time "I googled it" or "I asked Perplexity" isn't enough.
+Powered by [Pokee AI](https://pokee.ai)'s SOTA Deep Research Agent. Up to 75% cheaper than OpenAI, Gemini, and Perplexity. No API key management, no hidden costs.
 
 ---
 
-## 3 Steps to Start
+## ✨ What Makes This Different
 
-### 1. Install (copy-paste)
+| | Web Search | ChatGPT/Perplexity | **Pokee Deep Research** |
+|---|:---:|:---:|:---:|
+| **Speed** | ⚡ Instant | 🚀 30-60 sec | ⏱️ 7-25 min |
+| **Method** | Links | Single query | **Multi-turn investigation** |
+| **Depth** | Surface | Medium | **Deep — explores, not summarizes** |
+| **Structure** | Raw links | Paragraphs | **Outline + Full Report** |
+| **Citations** | ❌ | Partial | **✅ Rich, verifiable sources** |
+| **Best For** | Quick facts | Fast answers | **Strategic decisions, due diligence** |
+
+Other AI tools give you plausible summaries. Pokee performs **iterative web searches and content analysis** — reading sources, following leads, building a comprehensive picture you can actually trust.
+
+**Use this when:** preparing for a meeting, evaluating competitors, understanding a market, or any time "I googled it" isn't enough.
+
+---
+
+## 🚀 Quick Start
+
+### 1. Install
+
 ```bash
 mkdir -p ~/.openclaw/skills && cd ~/.openclaw/skills
 git clone https://github.com/Niraven/pokee-deep-research-skill.git pokee-deep-research
 cd pokee-deep-research
 ```
 
-### 2. Configure (copy-paste)
+### 2. Configure
+
 ```bash
 python3 scripts/setup.py
 ```
+
 **Need a token?** Get one free at [pokee.ai](https://pokee.ai) — takes 30 seconds.
 
-### 3. Research (copy-paste)
+### 3. Research
+
 ```bash
-./scripts/pokee-research.sh "What you're actually trying to learn"
+./scripts/pokee-research.sh "competitive analysis of AI presentation tools"
 ```
 
 **Examples that work well:**
@@ -46,29 +54,59 @@ python3 scripts/setup.py
 
 ---
 
-## What You Get Back
+## 📊 What You Get
 
-After 7-25 minutes, check `~/.openclaw/workspace/research-output/`:
+Every research query produces publication-quality output:
 
 | File | What's Inside |
 |------|---------------|
-| `*_outline.md` | The skeleton — scan this first |
-| `*_writeup.md` | The meat — 50-70 KB of analysis |
-| `*_response.json` | Raw data — for follow-up questions |
+| `*_outline.md` | Structured hierarchy of findings (research roadmap) |
+| `*_writeup.md` | Detailed report with **rich citations** (50-70 KB) |
+| `*_response.json` | Raw API data for programmatic use |
 
-**The writeup includes:** executive summary, key players, comparative analysis, recommendations, and sources.
-
----
-
-## About Pokee
-
-[Pokee](https://pokee.ai) is an AI execution agent — you describe what you need in plain English, it figures out the rest. The Deep Research API is their academic-grade engine: slower because it's thorough, structured because it's useful.
-
-**Pricing:** ~$0.50-2.00 per query. You use your own account — no pooled credits, no surprises.
+**What sets Pokee reports apart:**
+- **Investigated, not summarized** — Multi-turn research that follows leads
+- **Cited, not asserted** — Every key claim has a source you can check
+- **Structured, not scattered** — Executive summary → detailed findings → sources
 
 ---
 
-## Troubleshooting
+## 🧠 About Pokee AI
+
+**Pokee AI** runs the **state-of-the-art 7B DeepResearch Agent** — open-source, benchmark-proven, and engineered for thoroughness.
+
+### Why Pokee?
+
+- **SOTA Performance:** Achieves superior results on HLE, GAIA, BrowseComp, and other complex reasoning benchmarks
+- **Iterative Research:** Performs multi-turn web searches and content analysis — not one-shot summaries
+- **Citation-Rich:** Every claim backed by sources you can verify
+- **Transparent:** Open-source model you can audit, API you can trust
+- **75% Cheaper:** Up to 75% less than OpenAI, Gemini, and Perplexity with no hidden costs
+
+### The Open Source + API Combo
+
+| | **PokeeResearch-7B (Open Source)** | **Pokee Deep Research API** |
+|---|---|---|
+| **Model** | 7B parameter agent | Same SOTA agent |
+| **Setup** | Self-hosted (Docker, GPUs) | Zero setup |
+| **Infrastructure** | You manage | We manage |
+| **Best For** | Researchers, tinkerers | Teams, builders, busy professionals |
+
+This skill uses the **API** — same benchmark-proven quality, zero infrastructure headaches.
+
+---
+
+## 💰 Pricing
+
+- **Input:** $0.30 per 1M tokens (~60 credits)
+- **Output:** $2.00 per 1M tokens (~400 credits)
+- **Typical query:** 500-2,000 credits ($0.50-2.00)
+
+Each user uses their own Pokee account — no shared costs, no surprises.
+
+---
+
+## 🛠️ Troubleshooting
 
 | Problem | Fix |
 |---------|-----|
@@ -78,4 +116,13 @@ After 7-25 minutes, check `~/.openclaw/workspace/research-output/`:
 
 ---
 
-Built for [OpenClaw](https://openclaw.ai) · Powered by [Pokee](https://pokee.ai)
+## 🔗 Links
+
+- **Pokee AI:** https://pokee.ai
+- **Deep Research API Preview:** https://pokee.ai/deepresearch-preview
+- **PokeeResearch-7B (Open Source):** https://github.com/Pokee-AI/PokeeResearchOSS
+- **OpenClaw:** https://openclaw.ai
+
+---
+
+Built for [OpenClaw](https://openclaw.ai) · Powered by [Pokee AI](https://pokee.ai)
