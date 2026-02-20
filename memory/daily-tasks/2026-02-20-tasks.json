@@ -1,0 +1,69 @@
+{
+  "date": "2026-02-20T03:51:43.569946",
+  "generated_by": "Axis - Goal-Driven Task Generator",
+  "tasks": [
+    {
+      "id": "TASK-20260220-01",
+      "title": "Research agent market positioning and create content about it \u2192 advances KNOWLEDGE + builds CAREER visibility",
+      "category": "HIGH_IMPACT",
+      "goals_advanced": [
+        "KNOWLEDGE",
+        "CAREER"
+      ],
+      "estimated_time": "60-90 min",
+      "autonomous": true,
+      "priority": "P0"
+    },
+    {
+      "id": "TASK-20260220-02",
+      "title": "Draft README and documentation for [PROJECT]",
+      "category": "BUILDING",
+      "goals_advanced": [
+        "BUILDING"
+      ],
+      "estimated_time": "90-120 min",
+      "autonomous": true,
+      "priority": "P0"
+    },
+    {
+      "id": "TASK-20260220-03",
+      "title": "Document learnings from yesterday's work in Obsidian",
+      "category": "KNOWLEDGE",
+      "goals_advanced": [
+        "KNOWLEDGE"
+      ],
+      "estimated_time": "45-60 min",
+      "autonomous": true,
+      "priority": "P1"
+    },
+    {
+      "id": "TASK-20260220-04",
+      "title": "Review and organize memory files from past week; update GOALS.md if priorities shifted",
+      "category": "MAINTENANCE",
+      "goals_advanced": [
+        "KNOWLEDGE",
+        "HEALTH"
+      ],
+      "estimated_time": "30 min",
+      "autonomous": true,
+      "priority": "P1"
+    },
+    {
+      "id": "TASK-20260220-05",
+      "title": "Find 1 relevant event/community to join this week",
+      "category": "NETWORK",
+      "goals_advanced": [
+        "NETWORK"
+      ],
+      "estimated_time": "30 min",
+      "autonomous": true,
+      "priority": "P2"
+    }
+  ],
+  "summary": {
+    "total_tasks": 5,
+    "autonomous_capable": 5,
+    "p0_tasks": 2,
+    "estimated_total_time": "4-6 hours"
+  }
+}

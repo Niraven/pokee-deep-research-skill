@@ -1,0 +1,156 @@
+📧 PERSONALIZED EMAIL DRAFTS FOR NINO
+Generated: February 20, 2026
+
+================================================================================
+1. INVISIBLE TECHNOLOGIES - AI Operations Associate (Score: 91/100)
+================================================================================
+
+To: careers@invisible.co
+Subject: Application: AI Operations Associate - OpenClaw & AI Automation Experience
+
+Hi Invisible Technologies Team,
+
+I'm excited to apply for the AI Operations Associate position. Your Axon platform's approach to deploying AI agents that handle complex, multi-step workflows resonates deeply with my hands-on experience building OpenClaw — an AI automation system I've architected and operated.
+
+Invisible's mission to compress "weeks of human work into minutes of AI-plus-human collaboration" mirrors exactly what I've been doing: creating AI infrastructure that actually works in production. Your 70% reduction in workflow processing time statistic tells me you value measurable impact — that's the mindset I bring.
+
+Why me?
+• Built and operate OpenClaw, an AI automation platform with MCP servers and real-world deployments
+• Experience with Python, system administration, and DevOps workflows
+• Based in the Philippines — aligned with your global, remote-first culture
+• Comfortable with the "Atomic" philosophy: starting with current processes and gradually replacing manual steps with AI
+
+I'd welcome the opportunity to bring my practical AI operations experience to your team and help scale your Meridial expert marketplace and Axon agent deployments.
+
+Best regards,
+Nino
+[Contact details to be added]
+
+Apply: https://www.invisible.co/careers
+
+---
+
+================================================================================
+2. COHERE - Software Engineer, AI Infrastructure (Junior) (Score: 91/100)
+================================================================================
+
+To: careers@cohere.com
+Subject: Application: Junior AI Infrastructure Engineer - Philippines-Based AI Builder
+
+Hi Cohere Hiring Team,
+
+I'm writing to express my interest in the Junior Software Engineer - AI Infrastructure role. Cohere's focus on "powerful AI meets practical business solutions" aligns with my philosophy: AI should work in the real world, not just in demos.
+
+Your North platform's promise of bringing everything together so "work just works" is compelling. I've experienced the pain of scattered AI tools firsthand while building OpenClaw — which is why I deeply appreciate Cohere's turnkey approach to enterprise AI.
+
+What I bring:
+• Production experience with AI systems (OpenClaw, MCP servers, automation workflows)
+• Python expertise and Linux system administration background
+• Understanding of distributed systems from managing my own infrastructure
+• Security-conscious mindset — I value the multi-layered protection you emphasize
+
+I'm particularly drawn to Cohere's VPC and on-premises deployment options. Having control over data and infrastructure is something I prioritize in my own work, and I'd love to help other enterprises achieve that same confidence.
+
+Would love to discuss how my hands-on AI infrastructure experience could contribute to Cohere's mission.
+
+Best regards,
+Nino
+[Contact details to be added]
+
+Apply: https://cohere.com/careers
+
+---
+
+================================================================================
+3. HUGGING FACE - Associate AI Research Engineer (Score: 87/100)
+================================================================================
+
+To: careers@huggingface.co
+Subject: Application: Associate AI Research Engineer - Open Source AI Builder from Philippines
+
+Hi Hugging Face Team,
+
+The AI community you've built is remarkable — I'm applying for the Associate AI Research Engineer role because I want to contribute to the open-source ML future you're creating.
+
+I've been following Hugging Face's work for years. Your Transformers, Diffusers, and smolagents libraries have been instrumental in my own projects, including OpenClaw — my AI automation system. The ability to experiment with 45,000+ models has accelerated my learning tremendously.
+
+Why I'm a fit:
+• Active user of Hugging Face tools (Transformers, Hub, Datasets) in personal projects
+• Strong Python skills and growing ML fundamentals
+• Experience with practical AI deployment and automation
+• Based in Philippines — eager to contribute from APAC timezone
+• Passionate about open source and democratizing AI access
+
+I'm not just looking for a job — I want to help build the tools that enable the next generation of AI developers. Hugging Face is where that happens.
+
+I'd welcome the opportunity to discuss how I can contribute to your open-source ML tooling.
+
+Best regards,
+Nino
+[Contact details to be added]
+
+Apply: https://huggingface.co/careers
+
+---
+
+================================================================================
+4. LEGALMATCH PHILIPPINES - AI Strategy & Automation Engineer (Score: 88/100)
+================================================================================
+
+To: [Apply via LinkedIn]
+Subject: Application: AI Strategy and Automation Engineer - Cebu-Based AI Developer
+
+Hi LegalMatch Philippines Team,
+
+I noticed your AI Strategy and Automation Engineer opening posted 6 days ago — this role seems tailor-made for my experience. Legal tech is a fascinating domain where AI can have immediate, tangible impact on people's lives.
+
+I'm based in the Philippines and have been building AI automation systems, including OpenClaw — a platform I architected for AI operations. Your focus on automation strategy aligns perfectly with my hands-on experience deploying AI in production environments.
+
+What I offer:
+• AI/Automation expertise from building and operating OpenClaw
+• Backend development experience with Python and Node.js
+• Understanding of workflow automation and process improvement
+• Remote-ready with Philippines-based availability
+• Passion for leveraging AI to solve real business problems
+
+LegalMatch's mission to connect clients with attorneys efficiently is precisely the kind of high-impact work I'm drawn to. I'd welcome the chance to help scale your AI capabilities.
+
+Best regards,
+Nino
+[Contact details to be added]
+
+Apply: https://ph.linkedin.com/jobs/view/ai-strategy-and-automation-engineer-remote-at-legalmatch-philippines-inc-4372239707
+
+---
+
+================================================================================
+5. DATANNOTATION - Junior AI/ML Engineer (Score: 84/100)
+================================================================================
+
+To: careers@dataannotation.tech
+Subject: Application: Junior AI/ML Engineer - Coding-Focused AI Developer
+
+Hi DataAnnotation Team,
+
+I'm applying for the Junior AI/ML Engineer position. Your focus on coding and technical tasks for AI training is exactly the kind of work that matches my skill set.
+
+I've been hands-on with Python development, AI systems (OpenClaw), and understand the importance of high-quality training data for model performance. Your flexible, fully-remote structure is ideal for my situation in the Philippines.
+
+My qualifications:
+• Strong Python coding skills
+• Experience with AI systems and automation
+• Comfortable with technical problem-solving
+• Available for flexible hours
+• Detail-oriented approach to quality
+
+I'd appreciate the opportunity to contribute to improving AI models through precise technical work.
+
+Best regards,
+Nino
+[Contact details to be added]
+
+Apply: https://www.dataannotation.tech
+
+================================================================================
+END OF EMAIL DRAFTS
+================================================================================
