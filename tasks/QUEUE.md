@@ -25,6 +25,11 @@ Autonomous work queue. Pull from here during heartbeats.
 - [x] Install self-improving-agent skill
 - [x] Install core automation skills (cron, backup, research, security)
 - [x] Create SKILL.md files for 9 critical skills
+- [x] **BATCH FIXED:** All 77 remaining ghost skills (SKILL.md created for all)
+- [ ] Test workflow runner with real execution
+- [ ] Create cross-skill automation examples
+- [ ] Submit or purge 5 stale job application drafts
+- [ ] Review and consolidate self-improving-agent learnings → MEMORY.md
 
 ---
 
